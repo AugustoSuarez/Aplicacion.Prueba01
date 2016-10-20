@@ -31,6 +31,7 @@
             this.btnAceptar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMensaje = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnAceptar
@@ -59,12 +60,23 @@
             this.txtMensaje.Size = new System.Drawing.Size(220, 20);
             this.txtMensaje.TabIndex = 2;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(12, 62);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(296, 152);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtMensaje);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAceptar);
@@ -80,6 +92,7 @@
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtMensaje;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

@@ -36,7 +36,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(194, 70);
+            this.btnAceptar.Location = new System.Drawing.Point(194, 110);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(90, 30);
             this.btnAceptar.TabIndex = 0;
@@ -57,13 +57,13 @@
             // 
             this.txtMensaje.Location = new System.Drawing.Point(64, 31);
             this.txtMensaje.Name = "txtMensaje";
-            this.txtMensaje.Size = new System.Drawing.Size(220, 20);
+            this.txtMensaje.Size = new System.Drawing.Size(136, 20);
             this.txtMensaje.TabIndex = 2;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(12, 62);
+            this.checkBox1.Location = new System.Drawing.Point(204, 34);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 3;
